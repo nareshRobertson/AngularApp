@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 })
 export class MenuItemService {
     private menuItems: MenuItem[] = [];
-    private API_SERVER = 'https://localhost:5001/MenuItem';
+    private API_SERVER = 'https://angularbackendwebapi.azurewebsites.net/MenuItem';
     invalidLogin: boolean = true;
 
     private status = '';

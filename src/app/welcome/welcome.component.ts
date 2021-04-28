@@ -26,7 +26,7 @@ export class WelcomeComponent implements OnInit {
         console.log(JSON.stringify(form.value));
 
         this.http
-            .post('https://localhost:5001/Auth/login', credentials, {
+            .post('https://angularbackendwebapi.azurewebsites.net/Auth/login', credentials, {
                 headers: new HttpHeaders({
                     'Content-Type': 'application/json'
                 })
